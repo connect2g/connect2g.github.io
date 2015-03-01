@@ -1,0 +1,123 @@
+/* General Demo Style */
+html { height: 100%;
+		overflow:scroll;
+		 }
+
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('BEBAS___-webfont.eot');
+    src: url('font/BEBAS___-webfont.eot') format('embedded-opentype'),
+         url('font/BEBAS___-webfont.woff') format('woff'),
+         url('font/BEBAS___-webfont.ttf') format('truetype'),
+         url('font/BEBAS___-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: 'Dosis', Arial, sans-serif;
+	background: #fff;
+	font-weight: 400;
+	font-size: 15px;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	overflow: hidden;
+}
+
+a {
+	color: #555;
+	text-decoration: none;
+}
+
+/* Header Style */
+.codrops-top {
+	line-height: 24px;
+	font-size: 11px;
+	background: rgba(153,153,153,0.7);
+	text-transform: uppercase;
+	z-index: 9999;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	left: 0px;
+}
+
+.codrops-top:before,
+.codrops-top:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.codrops-top:after {
+    clear: both
+}
+
+.codrops-top a{
+	font-family: 'Dosis', Arial, sans-serif;
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #fff;
+	display: inline-block;
+}
+
+.codrops-top a1{
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: rgba(202,95,49,0.7);
+	display: inline-block;
+}
+
+.codrops-top a:hover {
+	color: rgba(202,95,49,0.7);
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	float: left;
+	display: block;
+}
+
+.support-note span{
+	color: #ac375d;
+	font-size: 16px;
+	display: none;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.no-cssanimations .support-note span.no-cssanimations,
+.no-csstransforms .support-note span.no-csstransforms,
+.no-csstransforms3d .support-note span.no-csstransforms3d,
+.no-csstransitions .support-note span.no-csstransitions{
+	display: block;
+}
+
+@media screen and (max-width: 860px) {
+	.codrops-top {
+		display: none;
+	}
+}
+#logo {
+	height: 72px;
+	width: 200px;
+	background-color:#FFF;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:-70px;
+}
+
+#footer {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	text-align:center;
+	color: #fff;
+	background-color: rgba(153,153,153,0.7);
+	height: 15px;
+	
+}
+

@@ -1,0 +1,190 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <head>
+        <title>RPM</title>
+        <meta name="description" content="RPM" />
+        <meta name="keywords" content="jquery, html5, audio, css3, template, band, music, player, album, discography, website"/>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="css/style1.css" type="text/css"  />
+		<link rel="stylesheet" href="css/jplayer.codrops.css" type="text/css" />
+        <link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+		<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis+Light' rel='stylesheet' type='text/css' />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        
+                <script src="js/jquery-1.2.6.min.js" type="text/javascript"></script>
+		<script src="js/jquery.easingnew.1.3.js" type="text/javascript"></script>
+		
+        
+        <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+		<!-- IMPORTANT!!! Include the stylesheet *BEFORE* the JavaScript (necessary for Safari 3.1.1) -->
+    </head>
+    <body>
+
+<div class="cd_wrapper">
+		  <div id="cd_background" class="cd_background"> 
+				<div class="cd_overlay"></div>
+				<div class="cd_loading"></div>
+          </div>
+            <div class="rpm" id="logo"><img src="../rpmlogo.png" width="291" height="100" alt="rpm" />
+            <ul class="kwicks" >  
+		      <li id="kwick1"><a href="index.html"><img src="thumbs/new.jpg" width="80" height="120" /></a></li>
+      <li id="kwick2"><a href="best2.html"><img src="thumbs/coming.jpg" width="80" height="120" /></a></li>
+      <li id="kwick3"><a href="hits.html"><img src="thumbs/hits.jpg" width="80" height="120" /></a></li>
+      <li id="kwick4"><a href="videos.html"><img src="thumbs/videos.jpg" width="80" height="120" alt="hits" /></a></li> 
+  </ul>
+
+                
+  </div>
+
+			<div id="jquery_jplayer" class="jp-jplayer"></div>
+			<div id="jp-audio" class="jp-audio">
+				<div class="jp-type-playlist">
+					<div id="jp_interface" class="jp-interface">
+									<ul class="jp-controls">
+							<li><a href="#" class="jp-play" tabindex="1">play</a></li>
+							<li><a href="#" class="jp-pause" tabindex="1">pause</a></li>
+							<li><a href="#" class="jp-stop" tabindex="1">stop</a></li>
+							<li><a href="#" class="jp-mute" tabindex="1">mute</a></li>
+							<li><a href="#" class="jp-unmute" tabindex="1">unmute</a></li>
+							<li><a href="#" class="jp-previous" tabindex="1">previous</a></li>
+							<li><a href="#" class="jp-next" tabindex="1">next</a></li>
+									</ul>
+									<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+									  </div>
+									</div>
+						<div class="jp-volume-bar">
+							<div class="jp-volume-bar-value"></div>
+					  </div>
+						<div class="jp-current-time"></div>
+						<div class="jp-duration"></div>
+				  </div>
+					<div id="jp_playlist" class="jp-playlist">
+									<ul>
+							<!-- The method Playlist.displayPlaylist() uses this unordered list -->
+							<li></li>
+									</ul>
+				  </div>
+			  </div>
+  </div>
+  <div id="cd_container" class="cd_container">
+				<div class="cd_album cd_album_1" data-bgimg="images/6.jpg">
+					<h1>Dale Earnhardt Jr. Jr.</h1>
+					<a href="#" class="cd_back">&laquo; Back</a>
+					<div class="cd_content">
+						<div class="cd_playlist">
+							<ul>
+								<li data-mp3="songs/vocal.mp3" data-oga="songs/vocal.ogg">Vocal Chords</li>
+								<li data-mp3="songs/detroit.mp3" data-oga="songs/detroit.ogg">We Almost Lost Detroit</li>
+								<li data-mp3="songs/simple.mp3" data-oga="songs/simple.ogg">Simple Girl</li>
+							</ul>
+						</div>
+						<div class="cd_content_inner">
+							<p>This is no typo.  According to ESPN the Magazine, Dale Earnhardt, Jr. is a fan of Dale Earnhardt Jr. Jr.  </p>
+							<p>They are very well known for high energy live performances and harmonic vocals.  They use electric and organic instruments to create a style that is nothing other than their own.</p>
+						</div>
+					</div>
+				</div>
+				<div class="cd_album cd_album_2" data-bgimg="images/7.jpg">
+					<h1>Of Monsters and Men</h1>
+					<a href="#" class="cd_back">&laquo; Go back</a>
+					<div class="cd_content">
+						<div class="cd_playlist">
+							<ul>
+								<li data-mp3="songs/king.mp3" data-oga="songs/king.ogg">King and Lionheart</li>
+								<li data-mp3="songs/love.mp3" data-oga="songs/love.ogg">Love Love Love</li>
+                                <li data-mp3="songs/mountain.mp3" data-oga="songs/mountain.ogg">Mountain Sound</li>
+							</ul>
+						</div>
+						<div class="cd_content_inner">
+							<p>This indie folk/pop band from Iceland is now a hit in the U.S.  They have reached #6 on the US alternative music charts.  They have only released one album on April 3, 2012 but are already becoming very well known.</p>
+						</div>
+					</div>
+				</div>
+				<div class="cd_album cd_album_3" data-bgimg="images/8.jpg">
+					<h1>YAMANTAKA//SONIC TITAN</h1>
+					<a href="#" class="cd_back">&laquo; Go back</a>
+					<div class="cd_content">
+						<div class="cd_playlist">
+							<ul>
+								<li data-mp3="songs/oak.mp3" data-oga="songs/oak.ogg">Oak of Guernica</li>
+								<li data-mp3="songs/queens.mp3" data-oga="songs/queens.ogg">Queens</li>
+								<li data-mp3="songs/hoshi.mp3" data-oga="songs/hoshi.ogg">Hoshi Neko</li>
+							</ul>
+						</div>
+						<div class="cd_content_inner">
+							<p>YT//ST started with home-brew junk electronics and created a mini 'Noh-Wave' Opera.  They created musical theatre performances and started a trend with Asian and Indigenous artists.</p>	
+						</div>
+					</div>
+				</div>
+				<div class="cd_album cd_album_4" data-bgimg="images/9.jpg">
+					<h1>Django Django</h1>
+					<a href="#" class="cd_back">&laquo; Go back</a>
+					<div class="cd_content">
+						<div class="cd_playlist">
+							<ul>
+								<li data-mp3="songs/skies.mp3" data-oga="songs/skies.ogg">Skies Over Cairo</li>
+								<li data-mp3="songs/hand.mp3" data-oga="songs/hand.ogg">Hand of Man</li>
+								<li data-mp3="songs/wor.mp3" data-oga="songs/wor.ogg">WOR</li>
+							</ul>
+                        </div>
+						<div class="cd_content_inner">
+							<p>Formed in 2009, Django Django really hit it off with their self-titled album.  They have gotten great reviews and have reached #33 on UK charts.</p>
+						</div>
+				  </div>
+              </div>
+                <div class="cd_album cd_album_5" data-bgimg="images/10.jpg">
+					<h1>Perfume Genius</h1>
+					<a href="#" class="cd_back">&laquo; Go back</a>
+					<div class="cd_content">
+						<div class="cd_playlist">
+							<ul>
+								<li data-mp3="songs/hood.mp3" data-oga="songs/hood.ogg">Hood</li>
+								<li data-mp3="songs/allwaters.mp3" data-oga="songs/allwaters.ogg">All Waters</li>
+								<li data-mp3="songs/notear.mp3" data-oga="songs/notear.ogg">No Tear</li>
+							</ul>
+						</div>
+						<div class="cd_content_inner">
+							<p>Mike Hadreas started his name "Perfume Genius" in 2008 on MySpace.  Unlike MySpace, Perfume Genius is still going strong.  His recent YouTube music video includes himself embracing a pornographic actor Arpad Miklow in only underwear.  Unsafe and intense.</p>	
+						</div>
+					</div>
+				</div>
+			</div>
+	<div id="cd_navigation" class="cd_navigation">
+				<a href="#" class="cd_prev">Previous</a>
+				<a href="#" class="cd_next">Next</a>
+  </div>
+			<div class="cd_footer"></div>
+	</div>
+	<!-- jQuery -->
+    
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+		<!-- the mousewheel plugin - optional to provide mousewheel support -->
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<!-- the jScrollPane script -->
+		<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+		<!-- the transform plugin -->
+		<script type="text/javascript" src="js/jquery.transform-0.9.3.min_.js"></script>
+		<!-- the jPlayer plugin -->
+		<script type="text/javascript" src="js/jPlayer/jquery.jplayer.min.js"></script>
+		<!-- the playlist script (jPlayer demo code with some few changes) -->
+		<script type="text/javascript" src="js/playlist.js"></script>
+		<!-- the main script -->
+		<script type="text/javascript" src="js/jquery.template.js"></script>
+     
+        <script src="js/jquery.kwicks-1.5.1.pack.js" type="text/javascript"></script>
+        
+        	<script type="text/javascript">
+			$().ready(function() {
+				$('.kwicks').kwicks({
+					max : 115,
+					spacing : 3,
+					isVertical: true
+				});
+			});
+		</script>
+        
+        
+    </body>
+</html>
