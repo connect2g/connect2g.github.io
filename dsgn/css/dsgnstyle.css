@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+.header {
+	background-color: rgba(193,177,110,1);
+	height: 500px;
+	width: 1024px;
+}
+.side {
+	background-color: #EBB240;
+	height: 500px;
+	width: 464px;
+	background-image: url(../images/slicesdesign/images/home_02.jpg);
+	float: left;
+}
+.content {
+	background-color: rgba(12,135,114,1);
+	float: left;
+	height: 500px;
+	width: 560px;
+}
+.container {
+	height: 1000px;
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+body {
+	background-color: #4A4545;
+}
+a {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #FFFFFF;
+	font-variant: small-caps;
+	line-height: 20px;
+	text-align: left;
+}
+a:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #CB4245;
+}
+a:active {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.nav {
+	width: 100px;
+	height: 100px;
+	margin-top: 180px;
+	margin-left: 80px;
+}
+.navigation {
+	background-color: #7acec3;
+	height: 30px;
+	width: 1024px;
+	color: #FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	padding-top: 10px;
+}
