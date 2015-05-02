@@ -19,10 +19,11 @@
 	width: 560px;
 }
 .container {
-	height: 1000px;
+	height: 1040px;
 	width: 1024px;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: rgba(198,23,26,1.00);
 }
 body {
 	background-color: #4A4545;
