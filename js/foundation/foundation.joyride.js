@@ -40,7 +40,7 @@
       pre_ride_callback      : function (){},    // A method to call before the tour starts (passed index, tip, and cloned exposed element)
       post_expose_callback   : function (){},    // A method to call after an element has been exposed
       template : { // HTML segments for tip layout
-        link    : '<a href="#close" class="joyride-close-tip">&times;</a>',
+        link    : '<a href="#close" class="joyride-close-tip">×</a>',
         timer   : '<div class="joyride-timer-indicator-wrap"><span class="joyride-timer-indicator"></span></div>',
         tip     : '<div class="joyride-tip-guide"><span class="joyride-nub"></span></div>',
         wrapper : '<div class="joyride-content-wrapper"></div>',

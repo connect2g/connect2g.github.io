@@ -303,7 +303,7 @@
             url = $link.attr('href');
 
         if (settings.mobile_show_parent_link && url && url.length > 1) {
-          var $titleLi = $('<li class="title back js-generated"><h5><a href="#"></a></h5></li><li><a class="parent-link js-generated" href="' + url + '">' + $link.text() +'</a></li>');
+          var $titleLi = $('<li class="title back js-generated"><h5><a href="#"></a></h5></li><li><a class="parent-link js-generated" href="../../connect2gport/js/foundation/' + url + '">' + $link.text() +'</a></li>');
         } else {
           var $titleLi = $('<li class="title back js-generated"><h5><a href="#"></a></h5></li>');
         }
@@ -312,7 +312,7 @@
         if (settings.custom_back_text == true) {
           $('h5>a', $titleLi).html(settings.back_text);
         } else {
-          $('h5>a', $titleLi).html('&laquo; ' + $link.html());
+          $('h5>a', $titleLi).html('« ' + $link.html());
         }
         $dropdown.prepend($titleLi);
       });

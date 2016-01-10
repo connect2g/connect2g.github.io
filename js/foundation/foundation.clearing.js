@@ -8,7 +8,7 @@
 
     settings : {
       templates : {
-        viewing : '<a href="#" class="clearing-close">&times;</a>' +
+        viewing : '<a href="#" class="clearing-close">×</a>' +
           '<div class="visible-img" style="display: none"><img src="//:0">' +
           '<p class="clearing-caption"></p><a href="#" class="clearing-main-prev"><span></span></a>' +
           '<a href="#" class="clearing-main-next"><span></span></a></div>'
