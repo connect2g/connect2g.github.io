@@ -1,0 +1,128 @@
+.header {
+	
+}
+.container {
+	font-family: 'Open Sans Condensed', sans-serif;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+}
+h1{
+	font-size: 16px;
+	position:relative;
+	color: #000;
+	font-weight: 400;	
+	text-transform: uppercase;
+	text-align: right;
+	padding-top: 55px;
+	padding-bottom: 20px;
+	
+}
+h2{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bolder;
+	color: #000;
+}
+#logo {
+	position: relative;
+	float:left;
+	height: 51px;
+	width: 138px;
+	float: left;
+	padding-right: 50px;
+	padding-left: 8px;
+	padding-top: 25px;
+}
+
+.about {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	color: #000;
+	background-color: #E7E7E7;
+	width: 800px;
+	padding: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 29px;
+	text-align: left;
+}
+#ceo {
+	float: left;
+	height: 602px;
+	width: 400px;
+	padding-right: 45px;
+	padding-top: 22px;
+}
+#latestnews {
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+}
+#articleleft {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	clear: both;
+	float: left;
+	height: 75px;
+	width: 275px;
+	padding-top: 20px;
+	padding-right: 45px;
+	padding-left: 20px;
+}
+.news {
+	float: left;
+	width: 275px;
+	padding-left: 75px;
+	font-size: 24px;
+}
+#articleleft {
+	font-size: 12px;
+	height: 150px;
+	width: 275px;
+	padding-top: 15px;
+}
+#leftnews {
+	float: left;
+	height: 150px;
+	width: 275px;
+	padding-left: 37px;
+}
+#rightnews {
+	float: left;
+	height: 150px;
+	width: 275px;
+	padding-left: 20px;
+}
+	#socialmedia {
+	float: left;
+	height: 150px;
+	width: 25px;
+	padding-right: 25px;
+	padding-left: 40px;
+}
+.reference{
+	padding-top: 15px;
+	margin-right: auto;
+	margin-left: 80px;
+	width: 1024px;
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+a:active {
+	text-decoration: none;
+	color: #000;
+}
